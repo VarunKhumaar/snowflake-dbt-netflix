@@ -1,0 +1,42 @@
+models:
+  - name: titles
+    description: Dimension table for cleansed movie information
+    columns:
+      - name: show_id
+        description: Primary key
+        tests:
+          - unique
+          - not_null
+    
+  - name: cast
+    description: Dimension table for cleansed cast information
+    columns:
+      - name: show_id
+        description: Primary key
+        tests:
+          - not_null
+
+  - name: directors
+    description: Dimension table for cleansed director information
+    columns:
+      - name: show_id
+        description: Primary key
+        tests:
+          - not_null
+  
+  - name: category
+    description: Dimension table for cleansed category information
+    columns:
+      - name: show_id
+        description: Primary key
+        tests:
+          - not_null
+  
+  - name: countries
+    description: Dimension table for cleansed country information
+    columns:
+      - name: show_id
+        description: Primary key
+        tests:
+          - not_null
+  

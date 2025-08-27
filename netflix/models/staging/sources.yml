@@ -1,0 +1,17 @@
+verion: 2
+
+sources:
+  - name: netflix
+    schema: raw
+    tables:
+      - name: r_cast
+        identifier: raw_cast
+      - name: r_category
+        identifier: raw_category
+      - name: r_countries
+        identifier: raw_countries
+      - name: r_directors
+        identifier: raw_directors
+      - name: r_titles
+        identifier: raw_titles
+        
