@@ -11,10 +11,11 @@ This project demonstrates an end-to-end Netflix data pipeline using AWS S3, Snow
 - Tableau dashboard built on the curated reporting layer
 
 **Final Dashboard**: https://public.tableau.com/app/profile/varunkhumaar/viz/Netflixsnowflake-dbt/Dashboard
+<img width="2716" height="1518" alt="image" src="https://github.com/user-attachments/assets/dc8d870c-21c1-4779-9653-df86a6fb8639" />
 
-_Note: Minimal transformations are applied while creating the models - just to get an understanding and hands-on experience with dbt and snowflake._
+_Note: Minimal transformations were applied when creating the models, as the focus was on gaining hands-on experience with dbt and Snowflake._
 
 **Ideas/Inspiration**:
 - Netflix Data Analysis : [https://www.youtube.com/watch?v=IaA9YNlg5hM](https://www.youtube.com/watch?v=zZVQluYDwYY&t=10427s&ab_channel=DarshilParmar)
-
+- Data source : https://github.com/VarunKhumaar/snowflake-dbt-netflix/blob/main/netflix_titles.xlsx
 
